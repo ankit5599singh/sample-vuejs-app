@@ -60,13 +60,13 @@ jobs:
           cache-to: type=local,dest=/tmp/.buildx-cache,mode=max
 
       # 7. Run unit tests inside container
-      - name: Run Vue.js Tests
+      - name: Run Vue.js Unit Tests
         run: |
           docker run --rm \
             --workdir /app \
             --entrypoint "" \
             ${{ steps.meta.outputs.REPO_NAME }}-dev:latest \
-            sh -c "npm run test -- --ci --runInBand"
+            sh -c "npm run test:unit"
         env:
           CI: true
           NODE_ENV: test
