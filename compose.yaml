@@ -30,4 +30,3 @@ services:
       context: .
       dockerfile: Dockerfile.dev
     command: ["npm", "run", "test:unit"]
-

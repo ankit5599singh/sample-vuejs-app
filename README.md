@@ -1,8 +1,8 @@
-# Docker Vue.js Sample Project
+# Sample Docker Vue.js Project
 
 This project demonstrates how to effectively containerize a modern Vue.js application using Docker for both **development** and **production** workflows.
 
-It is used as part of the [official Docker Vue.js sample guide](https://docs.docker.com/guides/vuejs/), showcasing industry best practices for front-end containerization—including secure builds, streamlined development workflows, and optimized production delivery.
+It is used as part of the [official Sample Docker Vue.js guide](https://docs.docker.com/guides/vuejs/), showcasing industry best practices for front-end containerization—including secure builds, streamlined development workflows, and optimized production delivery.
 
 **Author**
 

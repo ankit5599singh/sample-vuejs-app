@@ -14,7 +14,7 @@ import HelloWorld from "./components/HelloWorld.vue";
     />
 
     <div class="wrapper">
-      <HelloWorld msg="Thank you Docker!" />
+      <HelloWorld msg="Docker with GitHub Actions!" />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
